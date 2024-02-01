@@ -1,6 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
-mongoose.connect(`${process.env.MONGODB_URL}`);
+ const MONGODB=process.env.MONGODB_URL;
+mongoose.connect(MONGODB);
 
 // Code for using the cloud mongodb atlas 
 const connectParams={
