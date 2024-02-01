@@ -1,13 +1,14 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
  
-mongoose.connect(process.env.MONGODB_URL);
-
+const url = process.env.MONGO_URL
 // Code for using the cloud mongodb atlas 
-const connectParams={
+mongoose.connect(url,{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }
+);
+
 
 // Code for manually using the mongodb of local system
 
