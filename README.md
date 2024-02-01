@@ -2,7 +2,24 @@
 
 Task: Need to create an API where anyone can create questions with options and also add votes to it
 
----
+## Installation
+
+Install my-project with npm
+
+```bash
+  git clone https://github.com/Gursimran-chouhan88/Issue-Tracker.git
+  npm install
+  cd Polling-System-API
+```
+    
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm start
+```
+
 
 ## Features
 - Create a question
