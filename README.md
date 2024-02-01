@@ -7,7 +7,7 @@ Task: Need to create an API where anyone can create questions with options and a
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/Gursimran-chouhan88/Issue-Tracker.git
+  git clone https://github.com/Gursimran-chouhan88/Polling-System-API.git
   npm install
   cd Polling-System-API
 ```
