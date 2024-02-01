@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
  
 
 // Code for using the cloud mongodb atlas 
-mongoose.connect(process.env.MONGO_URL,{
+mongoose.connect('mongodb+srv://gursimranjeet0786:8OVLi6fzpl2fluBR@cluster0.5pe6ulb.mongodb.net/Polling-System',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }
